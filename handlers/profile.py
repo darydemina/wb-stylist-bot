@@ -13,7 +13,7 @@ from telegram.ext import (
     filters,
 )
 
-from services import supabase_client
+from services import file_storage as supabase_client
 from utils import config, keyboards, messages as M
 
 log = logging.getLogger(__name__)

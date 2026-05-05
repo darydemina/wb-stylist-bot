@@ -71,3 +71,5 @@ def setup_logging() -> None:
     logging.getLogger("httpx").setLevel(logging.WARNING)
     logging.getLogger("httpcore").setLevel(logging.WARNING)
     logging.getLogger("telegram").setLevel(logging.INFO)
+print(f"DEBUG: SUPABASE_URL = {SUPABASE_URL}")
+print(f"DEBUG: SUPABASE_KEY = {SUPABASE_KEY[:20]}...")  # первые 20 символов
